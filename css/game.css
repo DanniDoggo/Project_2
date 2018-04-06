@@ -1,0 +1,31 @@
+.background    { background-image: url("https://c1.staticflickr.com/6/5112/7061563019_6b055c761c_b.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/purple-marble-texture-background.jpg");}
+.wall          { background-image: url("https://cdn.pixabay.com/photo/2016/01/23/10/29/texture-1157194_960_720.jpg");}
+.floater       { background-image: url("https://cdn.pixabay.com/photo/2016/07/12/23/16/isolated-1513335_960_720.png");
+                  background-size: 20px 20px;}
+.SpeedBoost    { background-image: url("https://c1.staticflickr.com/3/2627/3914436040_74c64acb9d_b.jpg");
+                background-size:cover; }
+.coin          { background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/White_Stars_1.svg/2000px-White_Stars_1.svg.png");
+                  background-size: 15px 15px;}
+.enemy          {background-image: url("images/ghost.png");
+                  background-size: 20px 20px;}
+.actor  { position: absolute;  }
+.player { background-image: url("images/rocket1.png");
+          background-size: 16px 30px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
